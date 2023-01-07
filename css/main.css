@@ -163,7 +163,7 @@ body {
     z-index: 1000;
     bottom: 0px;
     right: 0;
-    margin: 1.5rem;
+    margin: 0.5rem;
     width: 4rem;
     height: 4rem;
     opacity: 0;
@@ -206,6 +206,12 @@ body {
     .test-video {
         width: 500px;
         height: 450px;
+    }
+
+    #arrow_to_up {
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem;
     }
 }
 
@@ -258,6 +264,12 @@ body {
         height: 350px;
     }
 
+    #arrow_to_up {
+        width: 2rem;
+        height: 2rem;
+        margin: 0.5rem;
+    }
+
 }
 
 @media (max-width:650px) {
@@ -265,8 +277,10 @@ body {
         width: 250px;
         height: 250px;
     }
+
     #arrow_to_up {
         width: 1.5rem;
+        height: 1.5rem;
         margin: 0.5rem;
     }
 }
