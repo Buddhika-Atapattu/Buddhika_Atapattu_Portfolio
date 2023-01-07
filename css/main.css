@@ -154,8 +154,8 @@ body {
 
 .test-video {
     position: relative;
-    width: 750px;
-    height: 500px;
+    width: 550px;
+    height: 350px;
 }
 
 @media (max-width: 1024px) {
