@@ -152,11 +152,23 @@ body {
     display: none;
 }
 
+.test-video {
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+
 @media (max-width: 1024px) {
     .main-my-image {
         position: relative;
-        width: 150%;
-        top: 11%;
+        width: 125%;
+        top: 15%;
+        right: 0%;
+    }
+
+    .test-video {
+        width: 500px;
+        height: 450px;
     }
 }
 
@@ -204,4 +216,16 @@ body {
         padding: 5% 10%;
     }
 
+    .test-video {
+        width: 500px;
+        height: 350px;
+    }
+
+}
+
+@media (max-width:650px) {
+    .test-video {
+        width: 250px;
+        height: 250px;
+    }
 }
