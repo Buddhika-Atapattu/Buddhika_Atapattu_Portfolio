@@ -158,6 +158,44 @@ body {
     height: 350px;
 }
 
+#arrow_to_up {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0px;
+    right: 0;
+    margin: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 0px 0px 15px 2px #000;
+    border-radius: 100%;
+    opacity: 0;
+}
+
+.icon_none {
+    opacity: 0;
+}
+
+.icon_dipaky {
+    opacity: 1;
+}
+
+.animation-icon {
+    animation-name: arrow_icon;
+    animation-duration: 4.5s;
+}
+
+@keyframes arrow_icon {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
 @media (max-width: 1024px) {
     .main-my-image {
         position: relative;
